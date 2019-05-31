@@ -3,6 +3,9 @@ require_relative './dance_module.rb'
 
 class Dancer 
   
+  def initialize(name)
+    @name = name 
+  end 
   
 end 
   
